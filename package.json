@@ -2,9 +2,9 @@
   "name": "user-verification-service",
   "version": "1.0.0",
   "description": "zad_k_1",
-  "main": "script.js",
+  "main": "index.js",
   "scripts": {
-    "start": "node script.js"
+    "start": "node index.js"
   },
   "author": "",
   "license": "ISC",
