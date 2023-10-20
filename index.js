@@ -6,5 +6,5 @@ const testUser = {
     id: '12cs5_yyt437a1cc'
 }
 
-generateId();
+console.log('Wygenerowane ID', generateId());
 verifyUser(testUser);
