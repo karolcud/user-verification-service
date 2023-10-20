@@ -5,6 +5,7 @@ export function generateId() {
         let strNumIndex = Math.floor(Math.random() * stringAndNumber.length);
         let strNum = stringAndNumber.charAt(strNumIndex);
         tab.push(strNum);
+        console.log('xxx');
     }
 
     tab[5] = '_';
