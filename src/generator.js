@@ -1,11 +1,13 @@
 export function generateId() {
-    let liczby = [];
-    for (let i = 0; i < 10; i++) {
-        let pojedynczaLosowaLiczba = Math.floor(Math.random() * 9 + 1)
-        liczby.push(pojedynczaLosowaLiczba)
-    };
+    const stringAndNumber = '0123456789abcdefghijklmnoprstuwxyz'
+    let tab = []
+    for (let i = 0; i < 16; i++) {
+        let strNumIndex = Math.floor(Math.random() * stringAndNumber.length)
+        let strNum = stringAndNumber.charAt(strNumIndex)
+        tab.push(strNum)
+    }
 
-    let ciagLiczb = liczby.join("");
-
-    return ciagLiczb;
+    tab[5] = '_'
+    let ciagStrNum = tab.join("")
+    return ciagStrNum;
 }
