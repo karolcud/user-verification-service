@@ -18,11 +18,13 @@ c) Wprowadź zmianę w formacie zwracanego id. Od teraz ma to być string zwróc
 
 
 
-Etap 2)
+Etap 2) Obiekt użytkownika ma formę: { name: string, id: string } (np. {name: ‚Martita’, id: ‚45abc_345pik001x’}).
 
-a) obiekt użytkownika ma formę: {.name: string, id: string } (np. {name: ‚Martita’, id: ‚45abc_345pik001x’}).
+a) stwórz funkcję **createUser(name: string)**, która dla podanego w parametrze **name** utworzy obiekt użytkownika (w formie podanej powyżej) i go zwróci.
 
-b) stwórz globalną tablicę z 5 przykładowymi użytkownikami
+b) stwórz funkcję **addUserToDatabse(user: { name: string, id: string })**, która doda do bazy stworzonego usera
+
+c) korzystając ze stworzonych funkcji, dodaj do globalnej tablicy przykładowych użytkowników
 
 
 
