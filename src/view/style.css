@@ -1,0 +1,28 @@
+.main-title {
+    width: 200px;
+    margin: auto;
+    padding: 15px;
+    border: 2px solid red;
+    text-align: center;
+}
+
+button {
+    padding: 5px 20px;
+    background-color: bisque;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: rgb(130, 80, 24);
+    cursor: pointer;
+}
+
+button:active {
+    background-color: rgb(180, 130, 74);
+}
+
+#test-input-btn {
+    color: red;
+    font-weight: bold;
+}
