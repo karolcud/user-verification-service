@@ -2,11 +2,11 @@
 
 export default [
     {
-        login: 'Martita',
+        name: 'Martita',
         id: 'mm432_test79k93d'
     },
     {
-        login: 'Karolas',
+        name: 'Karolas',
         id: 'kc135_79k93test5'
     },
 ];
